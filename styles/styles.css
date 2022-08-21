@@ -19,21 +19,6 @@ a {
     text-decoration: none;
 }
 
-/* GRID EN INDEX */
-
-.grid-index {
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "new"
-    "newimg"
-    "principal"
-    "footer";
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    height: 100vh;
-}
-
 /* GRID EN PRODUCTOS */
 
 .grid-products {
@@ -341,15 +326,6 @@ header {
     color: #fff;
     border-radius: 1rem;
     border: none;
-}
-
-/* .card-index-img {
-    width: 25%;
-    margin: auto;
-} */
-
-.align-items-center {
-    justify-content: center;
 }
 
 .card_index .btn-card_index {
