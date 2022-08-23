@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Carrito</title>
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../fontawesome-free-6.1.2-web/css/all.css">
 
 </head>
+
 <body>
-    <div class="grid-shop">
+
         <header>
             <div class="header-container">
                 <a href="../index.html" class="header-logo">
@@ -24,13 +29,13 @@
                 <div class="container-input">
                     <input type="text" placeholder="Buscar Producto">
                 </div>
-            
+
 
                 <div class="icons-header">
                     <span href="./cuenta.html" class="fa-solid fa-user">
-                        <a class="header-icon__user" href="./cuenta.html" >Ingresar</a>
+                        <a class="header-icon__user" href="./cuenta.html">Ingresar</a>
                     </span>
-                    <span class="fa-solid fa-cart-shopping" >
+                    <span class="fa-solid fa-cart-shopping">
                         <a href="./carrito.html" class="header-icon-shopping">Carrito</a>
                     </span>
                 </div>
@@ -49,9 +54,9 @@
                         <li><a href="./cuenta.html">Mi cuenta</a></li>
                     </ul>
                 </div>
-                              
+
             </div>
-            
+
             <nav class="header-nav">
                 <ul class="nav-list">
                     <li><a href="../index.html"> Inicio </a></li>
@@ -65,86 +70,69 @@
 
         <main>
             <section class="container-main">
-                
+
                 <div>
-                    <a href="https://api.whatsapp.com/send?phone=987654321" class="btn-wsp" target="_blank"> <i class="fa-brands fa-whatsapp"></i> </a>
+                    <a href="https://api.whatsapp.com/send?phone=987654321" class="btn-wsp" target="_blank"> <i
+                            class="fa-brands fa-whatsapp"></i> </a>
                 </div>
 
-                <div class="container-section">
-                    <div class="section-oneitem">
-                                            
-                        <img src="../images/Hoodie_Angular_Gris_1024x1024@2x.webp" alt="Hoodie Angular">
-                        <div class="section-oneitem__container">
-                            <p>Hoddie Angular Gris</p>
-                            <p>codigo artículo: 185478639</p>
-                            <div class="container-h4">
-                                <h4> <a href=""> X Eliminar producto </a></h4>
-                                <h4> <a href=""> ❤️ Agregar a favoritos </a></h4>
+                <section class="items-shopping">
+                    <div class="card mb-3 border-0 cards-horizontal">
+                        <div class="row g-0 pb-4">
+                            <div class="col-md-4">
+                                <img src="../images/MockUp_Hoodie_Python_1024x1024@2x.jpg" class="img-fluid " alt="...">
+                            </div>
+                            <div class="col-md-8 text-cards">
+                                <div class="card-body text-star align-center">
+                                    <h3 class="card-title mt-4">Hoddie Python Negro</h3>
+                                    <span><input class="mt-4" type="number" placeholder="1"></span>
+                                    <p class="card-text mt-4"><small>codigo artículo: 185478639</small></p>
+                                    <h2>$ 159,900</h2>
+                                    <button class="btn btn-danger">Eliminar Producto</button>
+                                </div>
                             </div>
                         </div>
-
-                        <section class="container-total__one">
-                            <p>Precio Unitario:<span> $99,900 </span> <span>$150,000</span></p>
-                            <div class="total__one">
-                                <h4>Total:<span> $99,900 </span></h4>
+                        <div class="row g-0 pt-4 pb-4 item-shopping_others">
+                            <div class="col-md-4">
+                                <img src="../images/hoddies/Hoodie_JavaScript_Gris_1024x1024@2x.webp" class="img-fluid " alt="...">
                             </div>
-                        </section>
-
+                            <div class="col-md-8 text-cards">
+                                <div class="card-body text-star align-center">
+                                    <h3 class="card-title mt-4">Hoddie JavaScript Gris</h3>
+                                    <span><input class="mt-4" type="number" placeholder="1"></span>
+                                    <p class="card-text mt-4"><small>codigo artículo: 185478639</small></p>
+                                    <h2>$ 159,900</h2>
+                                    
+                                    <button class="btn btn-danger">Eliminar Producto</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0 pt-4 pb-4 item-shopping_others">
+                            
+                            <div class="col-md-12 text-cards">
+                                <div class="card-body text-star align-center">
+                                    <h3 class="card-title mt-4 h3-total">TOTAL</h3>
+                                    
+                                    <input class="mt-4 input-total" type="text" placeholder="Digitá tu código promocional">
+                                    <h2 class="mt-4">$ 319,800</h2> 
+                                    <button class="btn btn-success button-total">PAGAR</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="section-twoitem">
-                        <img src="../images/Hoodie_JavaScript_Azul_1024x1024@2x.webp" alt="Hoodie Javascript">
-                        <div class="section-twoitem__container">
-                            <p>Hoddie Javascript Azul</p>
-                            <p>codigo artículo: 183246987</p>
-                            <div class="container-h4">
-                                <h4> <a href=""> X Eliminar producto </a></h4>
-                                <h4> <a href=""> ❤️ Agregar a favoritos </a></h4>
-                            </div>
-                        </div>
+                    
+                </section>
 
-                        <section class="container-total__two">
-                            <p>Precio Unitario:<span> $99,900 </span> <span>$150,000</span></p>
-                            <div class="total__two">
-                                <h4>Total:<span> $99,900 </span></h4>
-                            </div>
-                        </section>
 
-                    </div>
-                    <div class="section-threeitem">
-                        <img class="hoddie-cont" src="../images/MockUp_Hoodie_Python_1024x1024@2x.webp" alt="Hoodie python">
-                        <div class="section-threeitem__container">
-                            <p>Hoddie Python Negro</p>
-                            <p>codigo artículo: 183246987</p>
-                            <div class="container-h4">
-                                <h4> <a href=""> X Eliminar producto </a></h4>
-                                <h4> <a href=""> ❤️ Agregar a favoritos </a></h4>
-                            </div>
-                        </div>
 
-                        <section class="container-total__three">
-                            <p>Precio Unitario:<span> $99,900 </span> <span>$150,000</span></p>
-                            <div class="total__three">
-                                <h4>Total:<span> $99,900 </span></h4>
-                            </div>
-                        </section>
-                    </div>
-                    <section class="container-total">
-                        <p class="container-pone">Subtotal: <span>$279,900</span> </p>
-                        <p class="container-ptwo">Costo de envio CoderFit: <span>Gratis</span> </p>
-                        <div class="total">
-                            <h3>TOTAL: <span>$279,900</span> </h3>
-                        </div>
-                    </section>
-                </div>
-
-                <div class="metodos-pago">
+                <!-- <div class="metodos-pago">
                     <img src="../images/metodos-de-pago-por-payu.png" alt="metodos de pago">
-                </div>
+                </div> -->
             </section>
         </main>
 
         <footer>
-            
+
             <section class=footer-style>
                 <div>
                     <h3>ATENCIÓN AL CLIENTE</h3>
@@ -175,6 +163,13 @@
             </section>
 
         </footer>
-    </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="/index.js"></script>
 </body>
+
 </html>
