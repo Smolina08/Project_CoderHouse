@@ -19,21 +19,6 @@ a {
     text-decoration: none;
 }
 
-/* GRID EN PRODUCTOS */
-
-.grid-products {
-    display: grid;
-    grid-template-areas: 
-    "header header"
-    "select select"
-    "filter principal"
-    "footer footer";
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    width: 100%;
-    height: 100vh;
-}
-
 /* GRID EN CARRITO */
 
 .grid-shop {
@@ -169,6 +154,10 @@ header {
     color: #fff;
 }
 
+.header-icon__user:hover {
+    color: #fafafa;
+}
+
 .fa-solid a::after {
     content: "";
     height: 0.3rem;
@@ -176,18 +165,20 @@ header {
     background-color: #865bce;
     display: block;
     transition: all 300ms;
-    color: #fff;
 }
 
 .fa-solid a:hover::after {
     width: 100%;
-    color: #fff;
 }
 
 .header-icon-shopping {
     font-size:medium;
     font-weight: bold;
     color: #fff;
+}
+
+.header-icon-shopping:hover {
+    color: #fafafa;
 }
 
 
@@ -328,57 +319,7 @@ header {
     border: none;
 }
 
-.card_index .btn-card_index {
-    width: 10rem;
-    height: 3.5rem;
-    background-color: #865bce;
-    color: #fff;
-    justify-content: center;
-    border-radius: 0.5rem;
-    margin-top: 1rem;
-}
-
-
 /* Pagina Productos */
-
-.principal-content {
-    display: flex;
-}
-
-.container-aside {
-    background-color: #F5F5DC;
-    text-align: start;
-    padding: 1rem;
-    margin: 4rem 3.5rem 1rem;
-    width: 18%;
-    text-align: center;
-    justify-content: center;
-    height: 100%;
-    border-radius: 1rem;
-    grid-area: filter;
-    display: flex;
-    position: sticky;
-    top: 20rem;
-}
-
-.container-aside h3 {
-    padding: 2rem;
-}
-
-.container-aside p {
-    padding: 1rem;
-}
-
-.container-aside button {
-    padding: 1rem;
-    color: #fff;
-    background-color:#865bce;
-    border-radius: 0.5rem;
-    margin-top: 3rem;
-    cursor: pointer;
-    border: none;
-    font-size: medium;
-}
 
 .encabezado-products {
     background-color: #000000;
@@ -390,7 +331,6 @@ header {
     align-items: center;
     text-align: center;
     margin: 25rem auto auto;
-    grid-area: select;
 }
 
 .encabezado-products select {
@@ -404,49 +344,57 @@ header {
     cursor: pointer;
 }
 
-.container-products {
-    width: 100%;
-    /* height: 35rem; */
+.main-container .icons-products {
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-    margin-top: 2rem;   
-    margin-right: 10rem;
-    grid-area: principal;
+    margin-top: 2.5%;
+    width: 100%;
 }
 
-.container-products .cards-products {
-    width: 33rem;
-    height: 35rem;
-    border: 0.1rem solid rgba(0, 0, 0, 0.2);
-    border-radius: 0.8rem;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin: 2rem;
+.icons-products img {
+    border-radius: 10%;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+/* #icons-container .container-icons {
+    display: flex;
+    justify-content: center;
+} */
+
+#cards_products button {
+    height: 3rem;
+    width: 40%;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: #865bce;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#cards_products .card {
     text-align: center;
-    transition: all 0.25s;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     cursor: pointer;
 }
 
-.container-products .cards-products:hover {
-    /* transform: translateY(-15px); */
+#cards_products .card:hover {
+    transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
-.container-products .value-promotion {
-    color: rgb(223, 20, 20);
+#cards_products .badges-products {
+    text-align: start;
 }
 
-.container-products .last-value {
-    text-decoration: line-through;
-    margin-left: 1rem;
-}
-
-.container-products img {
-    width: 28rem;
-    height: 26rem;
-    margin: 1rem 2rem;
+#cards_products h3 {
+    font-weight: bold;
+    padding-top: 1rem;
 }
 
 /* Pagina Carrito */
@@ -1163,6 +1111,10 @@ footer {
     }
 
     .container-new .two,.three {
+        display: none;
+    }
+
+    .container-aside {
         display: none;
     }
 

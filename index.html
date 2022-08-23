@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./fontawesome-free-6.1.2-web/css/all.css">
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Inicio</title>
 
@@ -19,320 +20,331 @@
 </head>
 
 <body>
+    <header>
+        <div class="header-container">
+            <a href="./index.html" class="header-logo">
+                <img src="./images/logo/logo3.png" alt="logo">
+            </a>
 
-        <header>
-            <div class="header-container">
-                <a href="./index.html" class="header-logo">
-                    <img src="./images/logo/logo3.png" alt="logo">
-                </a>
-
-                <div class="container-input">
-                    <input type="text" placeholder="Buscar Producto">
-                </div>
-
-
-                <div class="icons-header">
-                    <span href="./pages/cuenta.html" class="fa-solid fa-user">
-                        <a class="header-icon__user" href="./pages/cuenta.html">Ingresar</a>
-                    </span>
-                    <span class="fa-solid fa-cart-shopping">
-                        <a href="./pages/carrito.html" class="header-icon-shopping">Carrito</a>
-                    </span>
-                </div>
-
-                <div class="menu-mobile">
-                    <input type="checkbox" id="check">
-                    <label for="check" class="checkbtn">
-                        <i class="fa-solid fa-bars"></i>
-                    </label>
-
-                    <ul class="list-mobile">
-                        <li class="mobile-index"><a href="./index.html">Inicio</a></li>
-                        <li><a href="./pages/productos.html">Productos</a></li>
-                        <li><a href="./pages/carrito.html">Carrito</a></li>
-                        <li><a href="./pages/contactanos.html">Contactanos</a></li>
-                        <li><a href="./pages/cuenta.html">Mi cuenta</a></li>
-                    </ul>
-                </div>
-
+            <div class="container-input">
+                <input type="text" placeholder="Buscar Producto">
             </div>
 
-            <nav class="header-nav">
-                <ul class="nav-list">
-                    <li class="nav-index"><a href="./index.html"> Inicio </a></li>
-                    <li><a href="./pages/productos.html"> Productos </a></li>
-                    <li><a href="./pages/carrito.html"> Carrito de Compras </a></li>
-                    <li><a href="./pages/contactanos.html"> Contactanos </a></li>
-                    <li><a href="./pages/cuenta.html"> Mi Cuenta </a></li>
+
+            <div class="icons-header">
+                <span href="./pages/cuenta.html" class="fa-solid fa-user">
+                    <a class="header-icon__user" href="./pages/cuenta.html">Ingresar</a>
+                </span>
+                <span class="fa-solid fa-cart-shopping">
+                    <a href="./pages/carrito.html" class="header-icon-shopping">Carrito</a>
+                </span>
+            </div>
+
+            <div class="menu-mobile">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
+                <ul class="list-mobile">
+                    <li class="mobile-index"><a href="./index.html">Inicio</a></li>
+                    <li><a href="./pages/productos.html">Productos</a></li>
+                    <li><a href="./pages/carrito.html">Carrito</a></li>
+                    <li><a href="./pages/contactanos.html">Contactanos</a></li>
+                    <li><a href="./pages/cuenta.html">Mi cuenta</a></li>
                 </ul>
-            </nav>
-        </header>
+            </div>
 
-        <main>
-            <section class="main-section">
+        </div>
 
-                <div>
-                    <a href="https://api.whatsapp.com/send?phone=987654321" class="btn-wsp" target="_blank"> <i
-                            class="fa-brands fa-whatsapp"></i> </a>
-                </div>
+        <nav class="header-nav">
+            <ul class="nav-list">
+                <li class="nav-index"><a href="./index.html"> Inicio </a></li>
+                <li><a href="./pages/productos.html"> Productos </a></li>
+                <li><a href="./pages/carrito.html"> Carrito de Compras </a></li>
+                <li><a href="./pages/contactanos.html"> Contactanos </a></li>
+                <li><a href="./pages/cuenta.html"> Mi Cuenta </a></li>
+            </ul>
+        </nav>
+    </header>
 
-                <div class="container-h3">
-                    <h3>LO NUEVO</h3>
-                </div>
+    <main>
+        <section class="main-section">
 
-                <div class="container-new">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row">
+            <div>
+                <a href="https://api.whatsapp.com/send?phone=987654321" class="btn-wsp" target="_blank"> <i
+                        class="fa-brands fa-whatsapp"></i> </a>
+            </div>
 
-                                    <div class="col one">
-                                        <img src="./images/Hoddies/Hoodie_Angular_Azul_1024x1024@2x.webp" class="d-block w-100"
-                                            alt="...">
-                                    </div>
-                                    <div class="col two">
-                                        <img src="./images/Hoddies/Hoodie_Docker_Negro_1024x1024@2x.webp" class="d-block w-100"
-                                            alt="...">
-                                    </div>
-                                    <div class="col three">
-                                        <img src="./images/Hoddies/Hoodie_Flutter_Gris_1024x1024@2x.webp" class="d-block w-100"
-                                            alt="...">
-                                    </div>
-                                    
+            <div class="container-h3">
+                <h3>LO NUEVO</h3>
+            </div>
 
+            <div class="container-new">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                                <div class="col one">
+                                    <img src="./images/Hoddies/Hoodie_Angular_Azul_1024x1024@2x.webp"
+                                        class="d-block w-100" alt="...">
                                 </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-
-                                    <div class="col one">
-                                        <img src="./images/Hoddies/Hoodie_JavaScript_Rojo_1024x1024@2x.webp" class="d-block w-100"
-                                            alt="...">
-                                    </div>
-                                    <div class="col two">
-                                        <img src="./images/Hoddies/MockUpHoodieSwiftAzul_1024x1024@2x.webp" class="d-block w-100"
-                                            alt="...">
-                                    </div>
-                                    <div class="col three">
-                                        <img src="./images/Hoddies/Hoodie_JavaScript_Azul_1024x1024@2x.webp" class="d-block w-100"
-                                            alt="...">
-                                    </div>
-                                    
+                                <div class="col two">
+                                    <img src="./images/Hoddies/Hoodie_Docker_Negro_1024x1024@2x.webp"
+                                        class="d-block w-100" alt="...">
                                 </div>
-                            </div>
+                                <div class="col three">
+                                    <img src="./images/Hoddies/Hoodie_Flutter_Gris_1024x1024@2x.webp"
+                                        class="d-block w-100" alt="...">
+                                </div>
 
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col one">
+                                    <img src="./images/Hoddies/Hoodie_JavaScript_Rojo_1024x1024@2x.webp"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="col two">
+                                    <img src="./images/Hoddies/MockUpHoodieSwiftAzul_1024x1024@2x.webp"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="col three">
+                                    <img src="./images/Hoddies/Hoodie_JavaScript_Azul_1024x1024@2x.webp"
+                                        class="d-block w-100" alt="...">
+                                </div>
+
+                            </div>
                         </div>
 
                     </div>
+
                 </div>
+            </div>
 
-            </section>
+        </section>
 
-            <section id="cards_index" class="mt-4 card_index">
-                <div class="container w-100">
-                    <div class="row">
-                        <div class="col text-center text-uppercase mb-4 mt-4">
-                            <h4>Conoce lo más</h4>
-                            <h1>VENDIDO</h1>
-                        </div>
+        <section id="cards_index" class="mt-4 card_index">
+            <div class="container w-100">
+                <div class="row">
+                    <div class="col text-center text-uppercase mb-4 mt-4">
+                        <h4>Conoce lo más</h4>
+                        <h1>VENDIDO</h1>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
-                            <div class="card">
-                                <img src="./images/Hoddies/Hoodie_JavaScript_Azul_1024x1024@2x.webp" class="card-img-top" alt="Hoddie de Java Script Azul" />
-                                <div class="card-body">
-                                    <div class="badges mb-2 badges-index">
-                                        <span class="badge text-bg-danger">Agotado</span>
-                                    </div>
-                                    <h3 class="card-title">Hoddie Java Script Azul</h3>
-                                    <p class="card-text">Valor: 69,900</p>
-                                    <button href="#">COMPRAR</button>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
+                        <div class="card">
+                            <img src="./images/Hoddies/Hoodie_JavaScript_Azul_1024x1024@2x.webp" class="card-img-top"
+                                alt="Hoddie de Java Script Azul" />
+                            <div class="card-body">
+                                <div class="badges mb-2 badges-index">
+                                    <span class="badge text-bg-danger">Agotado</span>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
-                            <div class="card">
-                                <img src="./images/Hoddies/Hoodie_Docker_Negro_1024x1024@2x.webp" class="card-img-top" alt="Hoddie de Java Script Azul" />
-                                <div class="card-body">
-                                    <div class="badges mb-2 badges-index">
-                                        <span class="badge text-bg-success">Stock</span>
-                                    </div>
-                                    <h3 class="card-title">Hoddie Java Script Azul</h3>
-                                    <p class="card-text">Valor: 69,900</p>
-                                    <button href="#">COMPRAR</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
-                            <div class="card">
-                                <img src="./images/Hoddies/Hoodie_Flutter_Gris_1024x1024@2x.webp" class="card-img-top" alt="Hoddie de Java Script Azul" />
-                                <div class="card-body">
-                                    <div class="badges mb-2 badges-index">
-                                        <span class="badge text-bg-warning">Ultimas Unidades</span>
-                                    </div>
-                                    <h3 class="card-title">Hoddie Java Script Azul</h3>
-                                    <p class="card-text">Valor: 69,900</p>
-                                    <button href="#">COMPRAR</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
-                            <div class="card">
-                                <img src="./images/Hoddies/MockUp_Hoodie_Android_Rojo_1024x1024@2x.webp" class="card-img-top" alt="Hoddie de Java Script Azul" />
-                                <div class="card-body">
-                                    <div class="badges mb-2 badges-index">
-                                        <span class="badge text-bg-success">Stock</span>
-                                    </div>
-                                    <h3 class="card-title">Hoddie Java Script Azul</h3>
-                                    <p class="card-text">Valor: 69,900</p>
-                                    <button href="#">COMPRAR</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
-                            <div class="card">
-                                <img src="./images/Camisetas/MockUpAngularCamisaNegra_1024x1024@2x.webp" class="card-img-top" alt="Hoddie de Java Script Azul" />
-                                <div class="card-body">
-                                    <div class="badges mb-2 badges-index">
-                                        <span class="badge text-bg-warning">Ultimas Unidades</span>
-                                    </div>
-                                    <h3 class="card-title">Hoddie Java Script Azul</h3>
-                                    <p class="card-text">Valor: 69,900</p>
-                                    <button href="#">COMPRAR</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
-                            <div class="card">
-                                <img src="./images/Camisetas/MockUpFlutterCamisaBlanca_1024x1024@2x.webp" class="card-img-top" alt="Hoddie de Java Script Azul" />
-                                <div class="card-body">
-                                    <div class="badges mb-2 badges-index">
-                                        <span class="badge text-bg-success">Stock</span>
-                                    </div>
-                                    <h3 class="card-title">Hoddie Java Script Azul</h3>
-                                    <p class="card-text">Valor: 69,900</p>
-                                    <button href="#">COMPRAR</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
-                            <div class="card">
-                                <img src="./images/Camisetas/MockUpAndroidCamisaNegra_1024x1024@2x.webp" class="card-img-top" alt="Hoddie de Java Script Azul" />
-                                <div class="card-body">
-                                    <div class="badges mb-2 badges-index">
-                                        <span class="badge text-bg-success">Stock</span>
-                                    </div>
-                                    <h3 class="card-title">Hoddie Java Script Azul</h3>
-                                    <p class="card-text">Valor: 69,900</p>
-                                    <button href="#">COMPRAR</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
-                            <div class="card">
-                                <img src="./images/Camisetas/MockUpReactCamisaNegra_1024x1024@2x.webp" class="card-img-top" alt="Hoddie de Java Script Azul" />
-                                <div class="card-body">
-                                    <div class="badges mb-2 badges-index">
-                                        <span class="badge text-bg-success">Stock</span>
-                                    </div>
-                                    <h3 class="card-title">Hoddie Java Script Azul</h3>
-                                    <p class="card-text">Valor: 69,900</p>
-                                    <button href="#">COMPRAR</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
-                            <div class="card">
-                                <img src="./images/Gorras/GorraAngularNegro_1024x1024@2x.webp" class="card-img-top" alt="Hoddie de Java Script Azul" />
-                                <div class="card-body">
-                                    <div class="badges mb-2 badges-index">
-                                        <span class="badge text-bg-success">Stock</span>
-                                    </div>
-                                    <h3 class="card-title">Hoddie Java Script Azul</h3>
-                                    <p class="card-text">Valor: 69,900</p>
-                                    <button href="#">COMPRAR</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
-                            <div class="card">
-                                <img src="./images/Gorras/GorraDockerNegro_1024x1024@2x.webp" class="card-img-top" alt="Hoddie de Java Script Azul" />
-                                <div class="card-body">
-                                    <div class="badges mb-2 badges-index">
-                                        <span class="badge text-bg-success">Stock</span>
-                                    </div>
-                                    <h3 class="card-title">Hoddie Java Script Azul</h3>
-                                    <p class="card-text">Valor: 69,900</p>
-                                    <button href="#">COMPRAR</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
-                            <div class="card">
-                                <img src="./images/Gorras/GorraFlutterNegro_720x.webp" class="card-img-top" alt="Hoddie de Java Script Azul" />
-                                <div class="card-body">
-                                    <div class="badges mb-2 badges-index">
-                                        <span class="badge text-bg-success">Stock</span>
-                                    </div>
-                                    <h3 class="card-title">Hoddie Java Script Azul</h3>
-                                    <p class="card-text">Valor: 69,900</p>
-                                    <button href="#">COMPRAR</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
-                            <div class="card">
-                                <img src="./images/Gorras/GorraJavascriptNegro_720x.webp" class="card-img-top" alt="Hoddie de Java Script Azul" />
-                                <div class="card-body">
-                                    <div class="badges mb-2 badges-index">
-                                        <span class="badge text-bg-warning">Ultimas Unidades</span>
-                                    </div>
-                                    <h3 class="card-title">Hoddie Java Script Azul</h3>
-                                    <p class="card-text">Valor: 69,900</p>
-                                    <button href="#">COMPRAR</button>
-                                </div>
+                                <h3 class="card-title">Hoddie Java Script Azul</h3>
+                                <p class="card-text">Valor: 69,900</p>
+                                <button href="#">COMPRAR</button>
                             </div>
                         </div>
                     </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
+                        <div class="card">
+                            <img src="./images/Hoddies/Hoodie_Docker_Negro_1024x1024@2x.webp" class="card-img-top"
+                                alt="Hoddie de Java Script Azul" />
+                            <div class="card-body">
+                                <div class="badges mb-2 badges-index">
+                                    <span class="badge text-bg-success">Stock</span>
+                                </div>
+                                <h3 class="card-title">Hoddie Java Script Azul</h3>
+                                <p class="card-text">Valor: 69,900</p>
+                                <button href="#">COMPRAR</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
+                        <div class="card">
+                            <img src="./images/Hoddies/Hoodie_Flutter_Gris_1024x1024@2x.webp" class="card-img-top"
+                                alt="Hoddie de Java Script Azul" />
+                            <div class="card-body">
+                                <div class="badges mb-2 badges-index">
+                                    <span class="badge text-bg-warning">Ultimas Unidades</span>
+                                </div>
+                                <h3 class="card-title">Hoddie Java Script Azul</h3>
+                                <p class="card-text">Valor: 69,900</p>
+                                <button href="#">COMPRAR</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
+                        <div class="card">
+                            <img src="./images/Hoddies/MockUp_Hoodie_Android_Rojo_1024x1024@2x.webp"
+                                class="card-img-top" alt="Hoddie de Java Script Azul" />
+                            <div class="card-body">
+                                <div class="badges mb-2 badges-index">
+                                    <span class="badge text-bg-success">Stock</span>
+                                </div>
+                                <h3 class="card-title">Hoddie Java Script Azul</h3>
+                                <p class="card-text">Valor: 69,900</p>
+                                <button href="#">COMPRAR</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
+                        <div class="card">
+                            <img src="./images/Camisetas/MockUpAngularCamisaNegra_1024x1024@2x.webp"
+                                class="card-img-top" alt="Hoddie de Java Script Azul" />
+                            <div class="card-body">
+                                <div class="badges mb-2 badges-index">
+                                    <span class="badge text-bg-warning">Ultimas Unidades</span>
+                                </div>
+                                <h3 class="card-title">Hoddie Java Script Azul</h3>
+                                <p class="card-text">Valor: 69,900</p>
+                                <button href="#">COMPRAR</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
+                        <div class="card">
+                            <img src="./images/Camisetas/MockUpFlutterCamisaBlanca_1024x1024@2x.webp"
+                                class="card-img-top" alt="Hoddie de Java Script Azul" />
+                            <div class="card-body">
+                                <div class="badges mb-2 badges-index">
+                                    <span class="badge text-bg-success">Stock</span>
+                                </div>
+                                <h3 class="card-title">Hoddie Java Script Azul</h3>
+                                <p class="card-text">Valor: 69,900</p>
+                                <button href="#">COMPRAR</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
+                        <div class="card">
+                            <img src="./images/Camisetas/MockUpAndroidCamisaNegra_1024x1024@2x.webp"
+                                class="card-img-top" alt="Hoddie de Java Script Azul" />
+                            <div class="card-body">
+                                <div class="badges mb-2 badges-index">
+                                    <span class="badge text-bg-success">Stock</span>
+                                </div>
+                                <h3 class="card-title">Hoddie Java Script Azul</h3>
+                                <p class="card-text">Valor: 69,900</p>
+                                <button href="#">COMPRAR</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
+                        <div class="card">
+                            <img src="./images/Camisetas/MockUpReactCamisaBlanca_1024x1024@2x.webp" class="card-img-top"
+                                alt="Hoddie de Java Script Azul" />
+                            <div class="card-body">
+                                <div class="badges mb-2 badges-index">
+                                    <span class="badge text-bg-success">Stock</span>
+                                </div>
+                                <h3 class="card-title">Hoddie Java Script Azul</h3>
+                                <p class="card-text">Valor: 69,900</p>
+                                <button href="#">COMPRAR</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
+                        <div class="card">
+                            <img src="./images/Gorras/GorraAngularNegro_1024x1024@2x.webp" class="card-img-top"
+                                alt="Hoddie de Java Script Azul" />
+                            <div class="card-body">
+                                <div class="badges mb-2 badges-index">
+                                    <span class="badge text-bg-success">Stock</span>
+                                </div>
+                                <h3 class="card-title">Hoddie Java Script Azul</h3>
+                                <p class="card-text">Valor: 69,900</p>
+                                <button href="#">COMPRAR</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
+                        <div class="card">
+                            <img src="./images/Gorras/GorraDockerNegro_1024x1024@2x.webp" class="card-img-top"
+                                alt="Hoddie de Java Script Azul" />
+                            <div class="card-body">
+                                <div class="badges mb-2 badges-index">
+                                    <span class="badge text-bg-success">Stock</span>
+                                </div>
+                                <h3 class="card-title">Hoddie Java Script Azul</h3>
+                                <p class="card-text">Valor: 69,900</p>
+                                <button href="#">COMPRAR</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
+                        <div class="card">
+                            <img src="./images/Gorras/GorraFlutterNegro_720x.webp" class="card-img-top"
+                                alt="Hoddie de Java Script Azul" />
+                            <div class="card-body">
+                                <div class="badges mb-2 badges-index">
+                                    <span class="badge text-bg-success">Stock</span>
+                                </div>
+                                <h3 class="card-title">Hoddie Java Script Azul</h3>
+                                <p class="card-text">Valor: 69,900</p>
+                                <button href="#">COMPRAR</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-index-img">
+                        <div class="card">
+                            <img src="./images/Gorras/GorraJavascriptNegro_720x.webp" class="card-img-top"
+                                alt="Hoddie de Java Script Azul" />
+                            <div class="card-body">
+                                <div class="badges mb-2 badges-index">
+                                    <span class="badge text-bg-warning">Ultimas Unidades</span>
+                                </div>
+                                <h3 class="card-title">Hoddie Java Script Azul</h3>
+                                <p class="card-text">Valor: 69,900</p>
+                                <button href="#">COMPRAR</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </section>
-        </main>
+            </div>
+        </section>
+    </main>
 
 
-        
 
-        <footer>
 
-            <section class=footer-style>
-                <div>
-                    <h3>ATENCIÓN AL CLIENTE</h3>
-                    <p>Preguntas frecuentes</p>
-                    <p>Enviós y retiros</p>
-                    <p>Devoluciones</p>
-                    <p>Sobre nosotros</p>
-                    <p>Donde nos puedes encontrar</p>
-                </div>
+    <footer>
 
-                <div>
-                    <h3>CONTACTO</h3>
-                    <p>(+57) 03547251639</p>
-                    <p>coder_fit@gmail.com</p>
-                </div>
+        <section class=footer-style>
+            <div>
+                <h3>ATENCIÓN AL CLIENTE</h3>
+                <p>Preguntas frecuentes</p>
+                <p>Enviós y retiros</p>
+                <p>Devoluciones</p>
+                <p>Sobre nosotros</p>
+                <p>Donde nos puedes encontrar</p>
+            </div>
 
-                <div>
-                    <h3>VISITANOS</h3>
-                    <p>C.C Andino local 203 (Bogotá)</p>
-                    <p>C.C Plaza del poblado (Medellín)</p>
-                </div>
+            <div>
+                <h3>CONTACTO</h3>
+                <p>(+57) 03547251639</p>
+                <p>coder_fit@gmail.com</p>
+            </div>
 
-                <div>
-                    <h3>REDES</h3>
-                    <p>Instagram: @coder_fit</p>
-                    <p>Facebook: Coder Fit</p>
-                </div>
-            </section>
+            <div>
+                <h3>VISITANOS</h3>
+                <p>C.C Andino local 203 (Bogotá)</p>
+                <p>C.C Plaza del poblado (Medellín)</p>
+            </div>
 
-        </footer>
+            <div>
+                <h3>REDES</h3>
+                <p>Instagram: @coder_fit</p>
+                <p>Facebook: Coder Fit</p>
+            </div>
+        </section>
+
+    </footer>
 
 
 
