@@ -280,6 +280,36 @@ header {
     margin: 3rem 2rem;
 }
 
+.container-new .carousel-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#carouselExampleControls .carousel-control-prev-icon {
+    background-image: url("../images/icons/flecha-correcta\ \(1\).png");
+}
+
+#carouselExampleControls .carousel-control-next-icon {
+    background-image: url("../images/icons/flecha-correcta.png");
+    color: #865bce;
+}
+
+.carousel-indicators button {
+    background-color: #000;
+}
+
+.carousel-control-prev {
+    justify-content: flex-start;
+    margin-left: 2.5rem;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+    margin-right: 2.5rem;
+}
+
 #cards_index .card {
     text-align: center;
     margin-top: 2rem;
