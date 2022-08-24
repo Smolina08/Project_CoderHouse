@@ -490,7 +490,7 @@ header {
 
 .main-form {
     background-color: #F5F5DC;
-    margin: 25rem 15rem;
+    margin: 25rem 15rem 10rem 15rem;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -606,6 +606,12 @@ header {
 }
 
 /* Crear cuenta */
+
+.main-form .item-form select {
+    font-size: 15px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
 
 .container-select {
     background: rgb(233, 233, 233);
@@ -946,6 +952,10 @@ footer {
 
 @media screen and (max-width: 576px) {
 
+    .menu-mobile ul {
+        top: 85px;
+    }
+
     .header-logo img {
         width: 6rem;
         height: 6rem;
@@ -1019,6 +1029,19 @@ footer {
         padding-left: 1rem;
         padding-right: 1rem;
         padding-top: 2rem;
+    }
+
+    .main-form {
+        width: 95%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+    }
+
+    .main-form .item-form select {
+        font-size: 12px;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
     }
 
     footer {
