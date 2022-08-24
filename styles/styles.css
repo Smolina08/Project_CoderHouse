@@ -24,7 +24,6 @@ a {
 /* El Header De Mi Pagina */
 
 header {
-    grid-area: header;
     width: 100%;
     position: fixed;
     height: auto;
@@ -64,7 +63,6 @@ header {
     text-align: center;
     justify-content: center;
     background-color: rgb(233, 233, 233);
-    grid-area: nav;
 }
 
 .container-input input:hover {
@@ -143,10 +141,6 @@ header {
     background-color: #fff;
 }
 
-.header-nav {
-    grid-area: nav;
-}
-
 .header-nav a { 
     color: rgb(0, 0, 0);
     padding: 1rem;
@@ -213,7 +207,6 @@ header {
     justify-content: center;
     margin-top: 25rem;
     background-color: #F5F5DC;
-    grid-area: new;
 }
 
 .container-h3 h3 {
@@ -229,7 +222,6 @@ header {
 
 .container-new {
     background-color: #F5F5DC;
-    grid-area: newimg;
 }
 
 .container-new .col {
@@ -612,7 +604,6 @@ footer {
     background-color: rgb(0, 0, 0);
     width: 100%;
     text-align: center;
-    grid-area: footer;
     justify-content: center;
     display: flex;
     padding: 5rem;
