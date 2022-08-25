@@ -488,6 +488,7 @@ header {
     border-radius: 1rem;
     background-color: #865bce;
     border: none;
+    color: #fff;
 }
 
 .button-contact button:hover {
@@ -552,6 +553,10 @@ header {
 
 .button-create a:hover {
     color: #fff;
+}
+
+.button-account {
+    color: #000;
 }
 
 /* Crear cuenta */
@@ -764,6 +769,11 @@ footer {
         margin: 15rem auto auto;
     }
 
+    .carousel-inner img {
+        width: 250px;
+        height: auto;
+    }
+
     .container-new .imgnew {
         display: none;
     }
@@ -774,6 +784,17 @@ footer {
 
     .container-new .three {
         display: none;
+    }
+
+    #cards_index .card-index-img {
+        width: 280px;
+        height: auto;
+    }
+
+    .cards-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .container-images {
@@ -920,23 +941,23 @@ footer {
     .main-form {
         margin: 16rem auto 5rem auto;
         border-radius: 1rem;
-        width: 90%;
-        font-size: 1rem;
+        width: 85%;
+        font-size: 12px;
     }
 
     .form-title {
-        font-size: 2rem;
+        font-size: 23px;
     }
 
     .main-form .item-form input {
-        font-size: 12px;
-        padding: 0.5rem;
+        font-size: 15px;
+        padding: 1rem;
         border-radius: 0.5rem;
     }
 
     .main-form .item-form textarea {
-        font-size: 12px;
-        padding: 0.5rem;
+        font-size: 15px;
+        padding: 1rem;
         border-radius: 0.5rem;
     }
 
@@ -954,32 +975,32 @@ footer {
     .button-contact button {
         margin-top: 3rem;
         margin-bottom: 0;
-        width: 10rem;
-        height: 3rem;
+        width: 13rem;
+        height: 4rem;
         font-weight: 500;
-        font-size: 13px;
+        font-size: 17px;
         border-radius: 1rem;
     }
 
     .main-form_account {
         margin: 20rem auto 10rem auto;
-        width: 90%;
+        width: 85%;
         padding-left: 1rem;
         padding-right: 1rem;
         padding-top: 2rem;
     }
 
     .main-form {
-        width: 95%;
         padding-left: 1rem;
         padding-right: 1rem;
         padding-top: 2rem;
     }
 
     .main-form .item-form select {
-        font-size: 12px;
-        padding: 0.5rem;
+        font-size: 15px;
+        padding: 1rem;
         border-radius: 0.5rem;
+        color: #757e7d;
     }
 
     footer {
