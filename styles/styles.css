@@ -632,8 +632,13 @@ footer {
     text-align: start;
 }
 
+.fa-brands {
+    height: auto;
+    margin-right: 5px ;
+}
 
-/* DISPOSITIVO MOBILE */
+
+/* DISPOSITIVO TABLET */
 
 @media screen and (max-width: 768px) {
 
@@ -909,11 +914,17 @@ footer {
 
 }
 
+/* DISPOSITIVO CELULAR */
+
 @media screen and (max-width: 576px) {
+
+    /* MENU MOBILE */
 
     .menu-mobile ul {
         top: 85px;
     }
+
+    /* HEADER */
 
     .header-logo img {
         width: 6rem;
@@ -921,13 +932,13 @@ footer {
         margin: 1rem;
     }
 
+    /* INDEX */
+
     .container-new .two,.three {
         display: none;
     }
 
-    .container-aside {
-        display: none;
-    }
+    /* CARRITO DE COMPRAS */
 
     .items-shopping .cards-horizontal {
         width: 100%;
@@ -937,6 +948,8 @@ footer {
         margin-top: 12rem;
         margin-bottom: 5rem;
     }
+
+    /* FORMULARIO */
 
     .main-form {
         margin: 16rem auto 5rem auto;
