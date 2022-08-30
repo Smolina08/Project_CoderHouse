@@ -1,5 +1,5 @@
 .main-form {
-    background-color: #F5F5DC;
+    background-color: $colorPrincipal;
     margin: 25rem 15rem 10rem 15rem;
     text-align: center;
     align-items: center;
@@ -23,7 +23,7 @@
 }
 
 .form-title {
-    color: #865bce;
+    color: $colorSecundario;
     font-size: 2.7rem;
     font-weight: bold;
     margin-bottom: 2.5rem;
@@ -49,12 +49,12 @@
         font-weight: 900;
         font-size: 18px;
         border-radius: 1rem;
-        background-color: #865bce;
+        background-color: $colorSecundario;
         border: none;
         color: #fff;
         &:hover {
-            background-color: #F5F5DC;
-            border: 0.3rem solid #865bce;
+            background-color: $colorPrincipal;
+            border: 0.3rem solid $colorSecundario;
             color: #000;
         }
     }

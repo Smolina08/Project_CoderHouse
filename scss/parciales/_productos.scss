@@ -9,7 +9,7 @@
     text-align: center;
     margin: 25rem auto auto;
     select {
-        background-color: #865bce;
+        background-color: $colorSecundario;
         color: rgb(255, 255, 255);
         font-weight: 500;
         font-size: medium;
@@ -41,7 +41,7 @@
         width: 40%;
         font-weight: 600;
         font-size: 13px;
-        background-color: #865bce;
+        background-color: $colorSecundario;
         color: #fff;
         border-radius: 1rem;
         border: none;

@@ -47,9 +47,9 @@
     }
     .h3-total {
         font-weight: bold;
-        color: #F5F5DC;
+        color: $colorPrincipal;
         font-size: 30px;
-        border-bottom: 0.3rem solid #F5F5DC;
+        border-bottom: 0.3rem solid $colorPrincipal;
         padding-bottom: 1rem;
     }
     .button-total {

@@ -1,3 +1,24 @@
+.btn-wsp {
+  position: fixed;
+  width: 5.5rem;
+  height: 5.5rem;
+  line-height: 5.5rem;
+  bottom: 3rem;
+  right: 3rem;
+  background: #0df053;
+  color: #fff;
+  border-radius: 5rem;
+  transition: all 1s;
+  font-size: 30px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  text-align: center;
+}
+.btn-wsp:hover {
+  color: #0df053;
+  background: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -61,6 +82,16 @@ header {
 .container-input input:hover {
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.2784313725);
   border-color: rgba(223, 225, 229, 0);
+}
+.container-input input::-moz-placeholder {
+  text-align: center;
+  color: #000000;
+  font-weight: 500;
+}
+.container-input input:-ms-input-placeholder {
+  text-align: center;
+  color: #000000;
+  font-weight: 500;
 }
 .container-input input::placeholder {
   text-align: center;
@@ -160,27 +191,6 @@ header {
 .nav-account a {
   border: 3px solid #865bce;
   border-radius: 1rem;
-}
-
-.btn-wsp {
-  position: fixed;
-  width: 5.5rem;
-  height: 5.5rem;
-  line-height: 5.5rem;
-  bottom: 3rem;
-  right: 3rem;
-  background: #0df053;
-  color: #fff;
-  border-radius: 5rem;
-  transition: all 1s;
-  font-size: 30px;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
-  z-index: 100;
-  text-align: center;
-}
-.btn-wsp:hover {
-  color: #0df053;
-  background: #fff;
 }
 
 footer {
@@ -851,6 +861,4 @@ footer {
   footer {
     padding: 2rem;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
