@@ -1,0 +1,77 @@
+.container-h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 25rem;
+    background-color: #F5F5DC;
+    h3 {
+        color: rgb(255, 255, 255);
+        width: 25rem;
+        height: 5rem;
+        background-color: #865bce;
+        border-radius: 2.5rem;
+        line-height: 5rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+}
+
+.container-new {
+    background-color: #F5F5DC;
+    .col {
+        margin: 3rem 2rem;
+    }
+    .carousel-elements {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+#carouselExampleControls .carousel-control-prev-icon {
+    background-image: url("../images/icons/flecha-correcta\ \(1\).png");
+    .carousel-control-next-icon {
+        background-image: url("../images/icons/flecha-correcta.png");
+        color: #865bce;
+    }
+}
+
+.carousel-indicators {
+    button {
+        background-color: #000;
+    }
+}
+
+.carousel-control-prev {
+    justify-content: flex-start;
+    margin-left: 2.5rem;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+    margin-right: 2.5rem;
+}
+
+#cards_index {
+    .card {
+        text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    }
+    .badges-index {
+        text-align: start;
+    }
+    h3 {
+        font-weight: bold;
+    }
+    button {
+        height: 3rem;
+        width: 40%;
+        font-weight: 600;
+        font-size: 13px;
+        background-color: #865bce;
+        color: #fff;
+        border-radius: 1rem;
+        border: none;
+    }
+}

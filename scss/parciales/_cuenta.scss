@@ -1,0 +1,58 @@
+.main-form_account {
+    background-color: #F5F5DC;
+    margin: 25rem auto 10rem auto;
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    .item-form {
+        input {
+            font-size: 15px;
+            padding: 1rem;
+            border-radius: 1rem;
+        }
+        textarea {
+            font-size: 15px;
+            padding: 1rem;
+            border-radius: 1rem;
+        }
+    }
+}
+
+.checkbox-form-account {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.button-create {
+    button {
+        margin-top: 3rem;
+        margin-bottom: 0;
+        width: 15rem;
+        height: 4rem;
+        font-weight: 900;
+        font-size: 18px;
+        border-radius: 1rem;
+        background-color: #F5F5DC;
+        border: 0.3rem solid #865bce;
+        &:hover {
+            background-color: #865bce;
+            color: #fff;
+            border: #000;
+        }
+    }
+    a {
+        color: #000;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+.button-account {
+    color: #000;
+}

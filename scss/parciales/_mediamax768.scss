@@ -1,0 +1,256 @@
+@media screen and (max-width: 768px) {
+    /* HEADER */
+
+    header {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-logo {
+        width: 20%;
+
+        img {
+            width: 8rem;
+            height: 8rem;
+            margin: 2rem;
+        }
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .icons-header {
+        display: none;
+    }
+
+    .icon-mobile {
+        .fa-solid {
+            cursor: pointer;
+            font-size: 3rem;
+        }
+    }
+
+    .container-input {
+        width: 100%;
+        margin: 0;
+        margin-left: 7%;
+        input {
+            width: 75%;
+        }
+    }
+
+    /* MENU MOBILE */
+
+    .checkbtn {
+        display: block;
+    }
+
+    .menu-mobile {
+        display: block;
+        position: fixed;
+        justify-content: center;
+        right: 20px;
+        cursor: pointer;
+        i {
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+        }
+        ul {
+            display: block;
+            position: fixed;
+            top: 100px;
+            left: -100%;
+            background: #F5F5DC;
+            width: 100%;
+            height: 100vh;
+            right: 0;
+
+            li {
+                padding: 2rem;
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                &:last-child {
+                    background: none;
+                    padding: 1rem;
+                }
+                a {
+                    text-decoration: none;
+                    color: rgb(0, 0, 0);
+                    font-weight: 600;
+                    padding: 1rem;
+                    border-radius: 1rem;
+                    &:hover {
+                        border: 3px solid #865bce;
+                        border-radius: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .mobile-index {
+        a {
+            border: 3px solid #865bce;
+            border-radius: 1rem;
+        }
+    }
+
+    .mobile-products {
+        a {
+            border: 3px solid #865bce;
+            border-radius: 1rem;
+        }
+    }
+
+    .mobile-carrito {
+        a {
+            border: 3px solid #865bce;
+            border-radius: 1rem;
+        }
+    }
+
+    .mobile-contact {
+        a {
+            border: 3px solid #865bce;
+            border-radius: 1rem;
+        }
+    }
+
+    .mobile-account {
+        a {
+            border: 3px solid #865bce;
+            border-radius: 1rem;
+        }
+    }
+
+    #check:checked~ul {
+        left: 0;
+        transition: all .45s;
+    }
+
+    /* INDEX */
+
+    .container-h3 {
+        margin: 15rem auto auto;
+    }
+
+    .carousel-inner {
+        img {
+            width: 250px;
+            height: auto;
+        }
+    }
+
+    .container-new {
+        margin: auto;
+        .imgnew {
+            display: none;
+        }
+        .three {
+            display: none;
+        }
+    }
+
+    #cards_index {
+        .card-index-img {
+            width: 280px;
+            height: auto;
+        }
+    }
+
+    .cards-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-images {
+        margin: auto;
+    }
+
+    /* PRODUCTOS */
+
+    .encabezado-products {
+        width: 90%;
+        display: flex;
+        margin: 15rem auto auto;
+        select {
+            font-weight: 500;
+            font-size: smaller;
+            margin-right: 1rem;
+            cursor: pointer;
+        }
+    }
+
+    .container-products {
+        width: 100%;
+        margin: auto;
+        margin-top: 1.5rem;
+        .cards-products {
+            width: 29rem;
+            height: 30rem;
+            margin: 2rem;
+            font-size: 13px;
+        }
+        img {
+            width: 25rem;
+            height: 23rem;
+            margin: 1rem 2rem;
+        }
+    }
+
+    /* CARRITO */
+
+    .items-shopping {
+        margin-top: 15rem;
+        margin-bottom: 5rem;
+        .cards-horizontal {
+            width: 90%;
+        }
+        img {
+            margin: 1rem;
+            width: 250px;
+            height: 250px;
+        }
+        .input-total {
+            text-align: center;
+            width: 180px;
+            height: 50px;
+            border-radius: 1rem;
+            margin-top: 5px;
+            font-size: 12px;
+        }
+    }
+
+    /* CONTACTO */
+
+    .main-form {
+        margin: 16rem auto 5rem auto;
+        border-radius: 1rem;
+        width: 80%;
+        font-size: 1.3rem;
+    }
+
+    .form-title {
+        font-size: 2rem;
+    }
+
+    /* CUENTA */
+
+    .main-form_account {
+        margin: 20rem auto 10rem auto;
+        width: 90%;
+    }
+
+    /* FOOTER */
+
+    .footer-style {
+        color: #fff;
+        margin: 0 5rem;
+        font-size: 13px;
+        gap: 3rem;
+    }
+}

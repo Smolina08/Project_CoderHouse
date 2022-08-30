@@ -1,0 +1,109 @@
+@media screen and (max-width: 576px) {
+
+    /* MENU MOBILE */
+
+    .menu-mobile ul {
+        top: 85px;
+    }
+
+    /* HEADER */
+
+    .header-logo img {
+        width: 6rem;
+        height: 6rem;
+        margin: 1rem;
+    }
+
+    /* INDEX */
+
+    .container-new {
+
+        .two,
+        .three {
+            display: none;
+        }
+    }
+
+    /* CARRITO DE COMPRAS */
+
+    .items-shopping {
+        margin-top: 12rem;
+        margin-bottom: 5rem;
+
+        .cards-horizontal {
+            width: 100%;
+        }
+    }
+
+    /* FORMULARIO */
+
+    .main-form {
+        margin: 16rem auto 5rem auto;
+        border-radius: 1rem;
+        width: 85%;
+        font-size: 12px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+
+        .item-form {
+            input {
+                font-size: 15px;
+                padding: 1rem;
+                border-radius: 0.5rem;
+            }
+
+            textarea {
+                font-size: 15px;
+                padding: 1rem;
+                border-radius: 0.5rem;
+            }
+
+            select {
+                font-size: 15px;
+                padding: 1rem;
+                border-radius: 0.5rem;
+                color: #757e7d;
+            }
+        }
+    }
+
+    .form-title {
+        font-size: 23px;
+    }
+
+    .checkbox-form {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+        input {
+            margin-right: 5px;
+        }
+    }
+
+    .button-contact {
+        button {
+            margin-top: 3rem;
+            margin-bottom: 0;
+            width: 13rem;
+            height: 4rem;
+            font-weight: 500;
+            font-size: 17px;
+            border-radius: 1rem;
+        }
+    }
+
+    .main-form_account {
+        margin: 20rem auto 10rem auto;
+        width: 85%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+    }
+
+    footer {
+        padding: 2rem;
+    }
+}
