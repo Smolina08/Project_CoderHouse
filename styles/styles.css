@@ -62,6 +62,16 @@ header {
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.2784313725);
   border-color: rgba(223, 225, 229, 0);
 }
+.container-input input::-moz-placeholder {
+  text-align: center;
+  color: #000000;
+  font-weight: 500;
+}
+.container-input input:-ms-input-placeholder {
+  text-align: center;
+  color: #000000;
+  font-weight: 500;
+}
 .container-input input::placeholder {
   text-align: center;
   color: #000000;
@@ -425,7 +435,7 @@ header {
   margin-right: 5px;
 }
 
-.checkbox-form .button-contact button {
+.button-contact button {
   margin-top: 3rem;
   margin-bottom: 0;
   width: 15rem;
@@ -437,7 +447,7 @@ header {
   border: none;
   color: #fff;
 }
-.checkbox-form .button-contact button:hover {
+.button-contact button:hover {
   background-color: #F5F5DC;
   border: 0.3rem solid #865bce;
   color: #000;
@@ -851,6 +861,4 @@ footer {
   footer {
     padding: 2rem;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
