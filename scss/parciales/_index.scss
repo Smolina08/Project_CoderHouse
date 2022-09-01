@@ -28,11 +28,12 @@
     }
 }
 
-#carouselExampleControls .carousel-control-prev-icon {
-    background-image: url("../images/icons/flecha-correcta\ \(1\).png");
+#carouselExampleControls {
+    .carousel-control-prev-icon {
+        background-image: url("../images/icons/flecha-correcta\ \(1\).png");
+    }
     .carousel-control-next-icon {
         background-image: url("../images/icons/flecha-correcta.png");
-        color: $colorSecundario;
     }
 }
 
@@ -55,8 +56,8 @@
 #cards_index {
     .card {
         text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
     .badges-index {
         text-align: start;

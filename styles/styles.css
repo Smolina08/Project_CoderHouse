@@ -62,16 +62,6 @@ header {
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.2784313725);
   border-color: rgba(223, 225, 229, 0);
 }
-.container-input input::-moz-placeholder {
-  text-align: center;
-  color: #000000;
-  font-weight: 500;
-}
-.container-input input:-ms-input-placeholder {
-  text-align: center;
-  color: #000000;
-  font-weight: 500;
-}
 .container-input input::placeholder {
   text-align: center;
   color: #000000;
@@ -226,9 +216,8 @@ header {
 #carouselExampleControls .carousel-control-prev-icon {
   background-image: url("../images/icons/flecha-correcta (1).png");
 }
-#carouselExampleControls .carousel-control-prev-icon .carousel-control-next-icon {
+#carouselExampleControls .carousel-control-next-icon {
   background-image: url("../images/icons/flecha-correcta.png");
-  color: #865bce;
 }
 
 .carousel-indicators button {
@@ -861,4 +850,6 @@ footer {
   footer {
     padding: 2rem;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
