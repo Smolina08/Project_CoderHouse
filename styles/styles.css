@@ -1,39 +1,3 @@
-.button-contact button {
-  margin-top: 3rem;
-  margin-bottom: 0;
-  width: 15rem;
-  height: 4rem;
-  font-weight: 900;
-  font-size: 18px;
-  border-radius: 1rem;
-  background-color: #865bce;
-  border: none;
-  color: #fff;
-}
-
-.button-create button {
-  margin-top: 3rem;
-  margin-bottom: 0;
-  width: 15rem;
-  height: 4rem;
-  font-weight: 900;
-  font-size: 18px;
-  border-radius: 1rem;
-  background-color: #F5F5DC;
-  border: 0.3rem solid #865bce;
-}
-
-#cards_products button, #cards_index button {
-  height: 3rem;
-  width: 40%;
-  font-weight: 600;
-  font-size: 13px;
-  background-color: #865bce;
-  color: #fff;
-  border-radius: 1rem;
-  border: none;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -65,7 +29,6 @@ header {
 
 .header-container {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   background-color: #000;
@@ -98,16 +61,6 @@ header {
 .container-input input:hover {
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.2784313725);
   border-color: rgba(223, 225, 229, 0);
-}
-.container-input input::-moz-placeholder {
-  text-align: center;
-  color: #000000;
-  font-weight: 500;
-}
-.container-input input:-ms-input-placeholder {
-  text-align: center;
-  color: #000000;
-  font-weight: 500;
 }
 .container-input input::placeholder {
   text-align: center;
@@ -255,7 +208,6 @@ header {
 }
 .container-new .carousel-elements {
   display: flex;
-  flex-direction: none;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -293,16 +245,26 @@ header {
 #cards_index h3 {
   font-weight: bold;
 }
+#cards_index button {
+  height: 3rem;
+  width: 40%;
+  font-weight: 600;
+  font-size: 13px;
+  background-color: #865bce;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+
 .encabezado-products {
-  display: flex;
-  flex-direction: none;
-  justify-content: flex-end;
-  align-items: center;
-  text-align: center;
   background-color: #000000;
   color: rgb(255, 255, 255);
   height: 6.5rem;
   width: 75%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
   margin: 25rem auto auto;
 }
 .encabezado-products select {
@@ -331,6 +293,16 @@ header {
   margin-bottom: 3%;
 }
 
+#cards_products button {
+  height: 3rem;
+  width: 40%;
+  font-weight: 600;
+  font-size: 13px;
+  background-color: #865bce;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
 #cards_products .card {
   text-align: center;
   margin-top: 2rem;
@@ -351,14 +323,13 @@ header {
 }
 
 .items-shopping {
-  display: flex;
-  flex-direction: none;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  text-align: center;
   margin-top: 30rem;
   margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
 }
 .items-shopping .text-cards {
   background-image: linear-gradient(to left, #42275a, #734b6d);
@@ -377,8 +348,8 @@ header {
 .items-shopping .body-shopping {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .items-shopping input {
   width: 50px;
@@ -453,6 +424,18 @@ header {
   margin-right: 5px;
 }
 
+.button-contact button {
+  margin-top: 3rem;
+  margin-bottom: 0;
+  width: 15rem;
+  height: 4rem;
+  font-weight: 900;
+  font-size: 18px;
+  border-radius: 1rem;
+  background-color: #865bce;
+  border: none;
+  color: #fff;
+}
 .button-contact button:hover {
   background-color: #F5F5DC;
   border: 0.3rem solid #865bce;
@@ -487,6 +470,17 @@ header {
   margin-right: 5rem;
 }
 
+.button-create button {
+  margin-top: 3rem;
+  margin-bottom: 0;
+  width: 15rem;
+  height: 4rem;
+  font-weight: 900;
+  font-size: 18px;
+  border-radius: 1rem;
+  background-color: #F5F5DC;
+  border: 0.3rem solid #865bce;
+}
 .button-create button:hover {
   background-color: #865bce;
   color: #fff;
@@ -518,6 +512,17 @@ header {
   font-size: 1.8rem;
 }
 
+.button-create button {
+  margin-top: 3rem;
+  margin-bottom: 0;
+  width: 15rem;
+  height: 4rem;
+  font-weight: 900;
+  font-size: 18px;
+  border-radius: 1rem;
+  background-color: #F5F5DC;
+  border: 0.3rem solid #865bce;
+}
 .button-create button:hover {
   background-color: #865bce;
   color: #fff;
@@ -554,7 +559,8 @@ footer {
   margin-bottom: 1rem;
   text-align: start;
 }
-.footer-style .fa-brands {
+
+.fa-brands {
   height: auto;
   margin-right: 5px;
 }
@@ -685,9 +691,8 @@ footer {
   }
   .cards-content {
     display: flex;
-    flex-direction: none;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
   .container-images {
     margin: auto;
@@ -819,10 +824,9 @@ footer {
   }
   .checkbox-form {
     display: flex;
-    flex-direction: none;
-    justify-content: center;
-    align-items: center;
     width: 100%;
+    align-items: center;
+    justify-content: center;
   }
   .checkbox-form input {
     margin-right: 5px;
@@ -846,4 +850,6 @@ footer {
   footer {
     padding: 2rem;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */

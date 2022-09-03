@@ -1,9 +1,11 @@
 .items-shopping {
-    @include display (none, center, center);
-    align-content: center;
-    text-align: center;
     margin-top: 30rem;
     margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
     .text-cards {
         background-image: linear-gradient( to left,#42275a, #734b6d);
         color: #fff;
@@ -19,7 +21,10 @@
         width: 65%;
     }
     .body-shopping {
-        @include display (column, center, center);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     input {
         width: 50px;
@@ -42,9 +47,9 @@
     }
     .h3-total {
         font-weight: bold;
-        color: map-get($colores, colorPrincipal);
+        color: $colorPrincipal;
         font-size: 30px;
-        border-bottom: 0.3rem solid map-get($colores, colorPrincipal);
+        border-bottom: 0.3rem solid $colorPrincipal;
         padding-bottom: 1rem;
     }
     .button-total {
