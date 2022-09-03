@@ -19,17 +19,9 @@
 
 .button-create {
     button {
-        margin-top: 3rem;
-        margin-bottom: 0;
-        width: 15rem;
-        height: 4rem;
-        font-weight: 900;
-        font-size: 18px;
-        border-radius: 1rem;
-        background-color: $colorPrincipal;
-        border: 0.3rem solid $colorSecundario;
+        @extend %buttonsCreate;
         &:hover {
-            background-color: $colorSecundario;
+            background-color: map-get($colores, colorSecundario);
             color: #fff;
             border: #000;
         }

@@ -62,7 +62,7 @@
             position: fixed;
             top: 100px;
             left: -100%;
-            background: $colorPrincipal;
+            background: map-get($colores, colorPrincipal);
             width: 100%;
             height: 100vh;
             right: 0;
@@ -83,7 +83,7 @@
                     padding: 1rem;
                     border-radius: 1rem;
                     &:hover {
-                        border: 3px solid $colorSecundario;
+                        border: 3px solid map-get($colores, colorSecundario);
                         border-radius: 1rem;
                     }
                 }
@@ -93,35 +93,35 @@
 
     .mobile-index {
         a {
-            border: 3px solid $colorSecundario;
+            border: 3px solid map-get($colores, colorSecundario);
             border-radius: 1rem;
         }
     }
 
     .mobile-products {
         a {
-            border: 3px solid $colorSecundario;
+            border: 3px solid map-get($colores, colorSecundario);
             border-radius: 1rem;
         }
     }
 
     .mobile-carrito {
         a {
-            border: 3px solid $colorSecundario;
+            border: 3px solid map-get($colores, colorSecundario);
             border-radius: 1rem;
         }
     }
 
     .mobile-contact {
         a {
-            border: 3px solid $colorSecundario;
+            border: 3px solid map-get($colores, colorSecundario);
             border-radius: 1rem;
         }
     }
 
     .mobile-account {
         a {
-            border: 3px solid $colorSecundario;
+            border: 3px solid map-get($colores, colorSecundario);
             border-radius: 1rem;
         }
     }
@@ -162,9 +162,7 @@
     }
 
     .cards-content {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include display (none, center, center);
     }
 
     .container-images {

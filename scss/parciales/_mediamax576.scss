@@ -73,11 +73,8 @@
     }
 
     .checkbox-form {
-        display: flex;
+        @include display (none, center, center);
         width: 100%;
-        align-items: center;
-        justify-content: center;
-
         input {
             margin-right: 5px;
         }
