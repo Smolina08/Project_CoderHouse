@@ -1,2 +1,50 @@
-$colorPrincipal: #F5F5DC;
-$colorSecundario: #865bce;
+// MAPS
+$colores: (
+    colorPrincipal: #F5F5DC,
+    colorSecundario: #865bce,
+);
+
+// EXTEND
+%buttonsContact {
+    margin-top: 3rem;
+    margin-bottom: 0;
+    width: 15rem;
+    height: 4rem;
+    font-weight: 900;
+    font-size: 18px;
+    border-radius: 1rem;
+    background-color: map-get($colores, colorSecundario);
+    border: none;
+    color: #fff;
+}
+
+%buttonsCreate {
+    margin-top: 3rem;
+    margin-bottom: 0;
+    width: 15rem;
+    height: 4rem;
+    font-weight: 900;
+    font-size: 18px;
+    border-radius: 1rem;
+    background-color: map-get($colores, colorPrincipal);
+    border: 0.3rem solid map-get($colores, colorSecundario);
+}
+
+%buttonsCards {
+    height: 3rem;
+    width: 40%;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: map-get($colores, colorSecundario);
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+// MIXIN
+@mixin display ($flexDirection, $justifyContent, $alignItems) {
+    display: flex;
+    flex-direction: $flexDirection;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+}

@@ -19,8 +19,6 @@ a {
     text-decoration: none;
 }
 
-// gogogoogogogog
-
 header {
     width: 100%;
     position: fixed;
@@ -30,17 +28,14 @@ header {
 }
 
 .header-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include display (row, space-around, center);
     background-color: #000;
     width: 100%;
 }
 
-
 .header-logo {
     img {
-        width: 10rem;
+        width: 9rem;
         height: 9rem;
         margin: 2rem;
     }
@@ -92,7 +87,7 @@ header {
             content: "";
             height: 0.3rem;
             width: 0;
-            background-color: $colorSecundario;
+            background-color: map-get($colores, colorSecundario);
             display: block;
             transition: all 300ms;
         }
@@ -121,10 +116,7 @@ header {
 }
 
 .nav-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    @include display (row, center, center);
     list-style-type: none;
     font-weight: bold;
     gap: 5%;
@@ -140,7 +132,7 @@ header {
         color: rgb(0, 0, 0);
         padding: 1rem;
         &:hover { 
-            border: 3px solid $colorSecundario;
+            border: 3px solid map-get($colores, colorSecundario);
             border-radius: 1rem;
         }
     }
@@ -148,35 +140,35 @@ header {
 
 .nav-index {
     a {
-        border: 3px solid $colorSecundario;
+        border: 3px solid map-get($colores, colorSecundario);
         border-radius: 1rem;
     }
 }
 
 .nav-products {
     a {
-        border: 3px solid $colorSecundario;
+        border: 3px solid map-get($colores, colorSecundario);
         border-radius: 1rem;
     }
 }
 
 .nav-carrito {
     a {
-        border: 3px solid $colorSecundario;
+        border: 3px solid map-get($colores, colorSecundario);
         border-radius: 1rem;
     }
 }
 
 .nav-contact {
     a {
-        border: 3px solid $colorSecundario;
+        border: 3px solid map-get($colores, colorSecundario);
         border-radius: 1rem;
     }
 }
 
 .nav-account {
     a {
-        border: 3px solid $colorSecundario;
+        border: 3px solid map-get($colores, colorSecundario);
         border-radius: 1rem;
     }
 }

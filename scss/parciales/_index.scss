@@ -2,12 +2,12 @@
     display: flex;
     justify-content: center;
     margin-top: 25rem;
-    background-color: $colorPrincipal;
+    background-color: map-get($colores, colorPrincipal);
     h3 {
         color: rgb(255, 255, 255);
         width: 25rem;
         height: 5rem;
-        background-color: $colorSecundario;
+        background-color: map-get($colores, colorSecundario);
         border-radius: 2.5rem;
         line-height: 5rem;
         margin-top: 2rem;
@@ -16,14 +16,12 @@
 }
 
 .container-new {
-    background-color: $colorPrincipal;
+    background-color: map-get($colores, colorPrincipal);
     .col {
         margin: 3rem 2rem;
     }
     .carousel-elements {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include display (none, center, center);
         text-align: center;
     }
 }
@@ -66,13 +64,6 @@
         font-weight: bold;
     }
     button {
-        height: 3rem;
-        width: 40%;
-        font-weight: 600;
-        font-size: 13px;
-        background-color: $colorSecundario;
-        color: #fff;
-        border-radius: 1rem;
-        border: none;
+        @extend %buttonsCards;
     }
 }
