@@ -2,7 +2,7 @@
 
 .main-form_account {
     background-color: map-get($colores, colorPrincipal);
-    margin: 25rem auto 10rem auto;
+    margin: 25rem auto 5rem auto;
     width: 60%;
     text-align: center;
     align-items: center;
@@ -37,6 +37,7 @@
             background-color: map-get($colores, colorSecundario);
             color: #fff;
             border: #000;
+            transition: all 0.5s;
         }
     }
     a {

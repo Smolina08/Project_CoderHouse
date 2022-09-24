@@ -29,4 +29,14 @@ footer {
     }
 }
 
-
+.footer-autor {
+    position: absolute;
+    width: 100%;
+    background-color: #000;
+    bottom: 0;
+    p {
+        text-align: center;
+        color: #fff;
+        padding: 1rem;
+      }
+  }

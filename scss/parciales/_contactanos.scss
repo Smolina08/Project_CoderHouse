@@ -2,7 +2,7 @@
 
 .main-form {
     background-color: map-get($colores, colorPrincipal);
-    margin: 25rem 15rem 10rem 15rem;
+    margin: 25rem 15rem 5rem 15rem;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -47,6 +47,7 @@
             background-color: map-get($colores, colorPrincipal);
             border: 0.3rem solid map-get($colores, colorSecundario);
             color: #000;
+            transition: all 0.5s;
         }
     }
 }

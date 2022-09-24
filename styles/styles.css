@@ -444,7 +444,7 @@ header {
 
 .main-form {
   background-color: #F5F5DC;
-  margin: 25rem 15rem 10rem 15rem;
+  margin: 25rem 15rem 5rem 15rem;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -484,11 +484,12 @@ header {
   background-color: #F5F5DC;
   border: 0.3rem solid #865bce;
   color: #000;
+  transition: all 0.5s;
 }
 
 .main-form_account {
   background-color: #F5F5DC;
-  margin: 25rem auto 10rem auto;
+  margin: 25rem auto 5rem auto;
   width: 60%;
   text-align: center;
   align-items: center;
@@ -518,6 +519,7 @@ header {
   background-color: #865bce;
   color: #fff;
   border: #000;
+  transition: all 0.5s;
 }
 .button-create a {
   color: #000;
@@ -584,6 +586,18 @@ footer {
 .footer-style .fa-brands {
   height: auto;
   margin-right: 5px;
+}
+
+.footer-autor {
+  position: absolute;
+  width: 100%;
+  background-color: #000;
+  bottom: 0;
+}
+.footer-autor p {
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
 }
 
 /* MODAL suscripción*/
@@ -821,6 +835,18 @@ footer {
     font-size: 13px;
     gap: 3rem;
   }
+  .footer-autor {
+    position: absolute;
+    width: 100%;
+    background-color: #000;
+    bottom: 0;
+  }
+  .footer-autor p {
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+  }
 }
 @media screen and (max-width: 576px) {
   /* MENU MOBILE */
@@ -892,7 +918,7 @@ footer {
   }
   /* FORMULARIO */
   .main-form {
-    margin: 16rem auto 5rem auto;
+    margin: 14rem auto 5rem auto;
     border-radius: 1rem;
     width: 85%;
     font-size: 12px;
@@ -939,7 +965,7 @@ footer {
     border-radius: 1rem;
   }
   .main-form_account {
-    margin: 20rem auto 10rem auto;
+    margin: 15rem auto 5rem auto;
     width: 85%;
     padding-left: 1rem;
     padding-right: 1rem;

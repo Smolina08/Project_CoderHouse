@@ -251,4 +251,17 @@
         font-size: 13px;
         gap: 3rem;
     }
+
+    .footer-autor {
+        position: absolute;
+        width: 100%;
+        background-color: #000;
+        bottom: 0;
+        p {
+            font-size: 13px;
+            text-align: center;
+            color: #fff;
+            padding: 1rem;
+          }
+      }
 }
