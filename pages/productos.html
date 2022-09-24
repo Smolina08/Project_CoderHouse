@@ -90,11 +90,11 @@
                 </div>
 
                 <section class="icons-products">
-                        <a href=""><img src="../images/icons/My project-1.png" alt="Icono de Hoddie"></a>
+                        <a href="#hoddies"><img src="../images/icons/My project-1.png" alt="Icono de Hoddie"></a>
 
-                        <a href=""><img src="../images/icons/My project-2.png" alt="Icono de Camiseta"></a>
+                        <a href="#camisetas"><img src="../images/icons/My project-2.png" alt="Icono de Camiseta"></a>
 
-                        <a href=""><img src="../images/icons/My project-3.png" alt="Icono de Gorra"></a>
+                        <a href="#gorras"><img src="../images/icons/My project-3.png" alt="Icono de Gorra"></a>
                 </section>
 
                 <section class="principal-content">
@@ -102,7 +102,7 @@
                     <section id="cards_products" class="mt-4 card_product">
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-products-img">
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-products-img" id="hoddies">
                                     <div class="card">
                                         <img src="../images/hoddies/Hoodie_JavaScript_Azul_1024x1024@2x.webp"
                                             class="card-img-top" alt="Hoddie de Java Script Azul" />
@@ -112,7 +112,7 @@
                                             </div>
                                             <h3 class="card-title">Hoddie Java Script Azul</h3>
                                             <p class="card-text">Valor: 99,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
@@ -126,7 +126,7 @@
                                             </div>
                                             <h3 class="card-title">Hoddie Angular Gris</h3>
                                             <p class="card-text">Valor: 99,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
@@ -142,7 +142,7 @@
                                             <h3 class="card-title">Hoddie Angular Negro</h3>
                                             <!-- <del>150.000</del> -->
                                             <p class="card-text">Valor: 99,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
@@ -156,7 +156,7 @@
                                             </div>
                                             <h3 class="card-title">Hoddie Docker Rojo</h3>
                                             <p class="card-text">Valor: 99,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
@@ -170,7 +170,7 @@
                                             </div>
                                             <h3 class="card-title">Hoddie Flutter Gris</h3>
                                             <p class="card-text">Valor: 99,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
@@ -184,7 +184,7 @@
                                             </div>
                                             <h3 class="card-title">Hoddie Java Script Rojo</h3>
                                             <p class="card-text">Valor: 99,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
@@ -198,7 +198,7 @@
                                             </div>
                                             <h3 class="card-title">Hoddie Java Blanco</h3>
                                             <p class="card-text">Valor: 99,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
@@ -213,21 +213,81 @@
                                             </div>
                                             <h3 class="card-title">Hoddie Python Negro</h3>
                                             <p class="card-text">Valor: 99,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-products-img">
                                     <div class="card">
+                                        <img src="../images/hoddies/Hoodie_Angular_Azul_1024x1024@2x.webp"
+                                            class="card-img-top" alt="Hoddie de Angular azul" />
+                                        <div class="card-body">
+                                            <div class="badges mb-2 badges-products">
+                                                <span class="badge text-bg-primary">Nuevo</span>
+                                                <span class="badge text-bg-warning">Ultimas Unidades</span>
+                                            </div>
+                                            <h3 class="card-title">Hoddie Python Negro</h3>
+                                            <p class="card-text">Valor: 99,900</p>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-products-img">
+                                    <div class="card">
+                                        <img src="../images/hoddies/Hoodie_Docker_Negro_1024x1024@2x.webp"
+                                            class="card-img-top" alt="Hoddie de Docker Negro" />
+                                        <div class="card-body">
+                                            <div class="badges mb-2 badges-products">
+                                                <span class="badge text-bg-primary">Nuevo</span>
+                                                <span class="badge text-bg-warning">Ultimas Unidades</span>
+                                            </div>
+                                            <h3 class="card-title">Hoddie Python Negro</h3>
+                                            <p class="card-text">Valor: 99,900</p>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-products-img">
+                                    <div class="card">
+                                        <img src="../images/hoddies/Hoodie_Flutter_Rojo_1024x1024@2x.webp"
+                                            class="card-img-top" alt="Hoddie de Flutter rojo" />
+                                        <div class="card-body">
+                                            <div class="badges mb-2 badges-products">
+                                                <span class="badge text-bg-primary">Nuevo</span>
+                                                <span class="badge text-bg-warning">Ultimas Unidades</span>
+                                            </div>
+                                            <h3 class="card-title">Hoddie Python Negro</h3>
+                                            <p class="card-text">Valor: 99,900</p>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-products-img">
+                                    <div class="card">
+                                        <img src="../images/hoddies/Hoodie_React_Gris_1024x1024@2x.webp"
+                                            class="card-img-top" alt="Hoddie de React gris" />
+                                        <div class="card-body">
+                                            <div class="badges mb-2 badges-products">
+                                                <span class="badge text-bg-primary">Nuevo</span>
+                                                <span class="badge text-bg-warning">Ultimas Unidades</span>
+                                            </div>
+                                            <h3 class="card-title">Hoddie Python Negro</h3>
+                                            <p class="card-text">Valor: 99,900</p>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-products-img" id="camisetas">
+                                    <div class="card">
                                         <img src="../images/camisetas/MockUpAndroidCamisaBlanca_1024x1024@2x.webp"
-                                            class="card-img-top" alt="Camiseta Android Blanca" />
+                                            class="card-img-top" alt="Camiseta Android Blanca"/>
                                         <div class="card-body">
                                             <div class="badges mb-2 badges-products">
                                                 <span class="badge text-bg-success">Stock</span>
                                             </div>
                                             <h3 class="card-title">Camiseta Android Blanca</h3>
                                             <p class="card-text">Valor: 69,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
@@ -241,7 +301,7 @@
                                             </div>
                                             <h3 class="card-title">Camiseta Android Negra</h3>
                                             <p class="card-text">Valor: 69,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
@@ -255,7 +315,7 @@
                                             </div>
                                             <h3 class="card-title">Camiseta Angular Blanca</h3>
                                             <p class="card-text">Valor: 69,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
@@ -269,7 +329,7 @@
                                             </div>
                                             <h3 class="card-title">Camiseta Angular Negra</h3>
                                             <p class="card-text">Valor: 69,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
@@ -283,7 +343,7 @@
                                             </div>
                                             <h3 class="card-title">Camiseta Docker Negra</h3>
                                             <p class="card-text">Valor: 69,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
@@ -297,7 +357,7 @@
                                             </div>
                                             <h3 class="card-title">Camiseta Docker Blanca</h3>
                                             <p class="card-text">Valor: 69,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
@@ -311,7 +371,7 @@
                                             </div>
                                             <h3 class="card-title">Camiseta Flutter Negra</h3>
                                             <p class="card-text">Valor: 69,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
@@ -325,11 +385,67 @@
                                             </div>
                                             <h3 class="card-title">Camiseta Flutter Blanca</h3>
                                             <p class="card-text">Valor: 69,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-products-img">
+                                    <div class="card">
+                                        <img src="../images/camisetas/MockUpJavaCamisaBlanca_1024x1024@2x.webp"
+                                            class="card-img-top" alt="Camiseta Java Blanca" />
+                                        <div class="card-body">
+                                            <div class="badges mb-2 badges-products">
+                                                <span class="badge text-bg-success">Stock</span>
+                                            </div>
+                                            <h3 class="card-title">Camiseta Flutter Blanca</h3>
+                                            <p class="card-text">Valor: 69,900</p>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-products-img">
+                                    <div class="card">
+                                        <img src="../images/camisetas/MockUpJavaCamisaNegra_1024x1024@2x.webp"
+                                            class="card-img-top" alt="Camiseta Flutter negra" />
+                                        <div class="card-body">
+                                            <div class="badges mb-2 badges-products">
+                                                <span class="badge text-bg-success">Stock</span>
+                                            </div>
+                                            <h3 class="card-title">Camiseta Flutter Blanca</h3>
+                                            <p class="card-text">Valor: 69,900</p>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-products-img">
+                                    <div class="card">
+                                        <img src="../images/camisetas/MockUpJavascriptCamisaBlanca_1024x1024@2x.webp"
+                                            class="card-img-top" alt="Camiseta JavaScript blanca" />
+                                        <div class="card-body">
+                                            <div class="badges mb-2 badges-products">
+                                                <span class="badge text-bg-success">Stock</span>
+                                            </div>
+                                            <h3 class="card-title">Camiseta Flutter Blanca</h3>
+                                            <p class="card-text">Valor: 69,900</p>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-products-img">
+                                    <div class="card">
+                                        <img src="../images/camisetas/MockUpJavascriptCamisaNegra_1024x1024@2x.webp"
+                                            class="card-img-top" alt="Camiseta JavaScript negra" />
+                                        <div class="card-body">
+                                            <div class="badges mb-2 badges-products">
+                                                <span class="badge text-bg-success">Stock</span>
+                                            </div>
+                                            <h3 class="card-title">Camiseta Flutter Blanca</h3>
+                                            <p class="card-text">Valor: 69,900</p>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-products-img" id="gorras">
                                     <div class="card">
                                         <img src="../images/gorras/GorraAngularNegro_1024x1024@2x.webp"
                                             class="card-img-top" alt="Gorra Angular Negra" />
@@ -339,7 +455,7 @@
                                             </div>
                                             <h3 class="card-title">Gorra Angular Negra</h3>
                                             <p class="card-text">Valor: 49,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
@@ -353,7 +469,7 @@
                                             </div>
                                             <h3 class="card-title">Gorra Docker Negra</h3>
                                             <p class="card-text">Valor: 49,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
@@ -367,7 +483,7 @@
                                             </div>
                                             <h3 class="card-title">Gorra Flutter Negra</h3>
                                             <p class="card-text">Valor: 49,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
@@ -381,21 +497,7 @@
                                             </div>
                                             <h3 class="card-title">Gorra JavaScript Negra</h3>
                                             <p class="card-text">Valor: 49,900</p>
-                                            <button href="#">COMPRAR</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-3 mb-4 card-products-img">
-                                    <div class="card">
-                                        <img src="../images/gorras/GorraReactNegro_1024x1024@2x.webp"
-                                            class="card-img-top" alt="Gorra React Negra" />
-                                        <div class="card-body">
-                                            <div class="badges mb-2 badges-products">
-                                                <span class="badge text-bg-success">Stock</span>
-                                            </div>
-                                            <h3 class="card-title">Gorra React Negra</h3>
-                                            <p class="card-text">Valor: 49,900</p>
-                                            <button href="#">COMPRAR</button>
+                                            <button href="#" data-bs-toggle="modal" data-bs-target="#modalCards">COMPRAR</button>
                                         </div>
                                     </div>
                                 </div>
@@ -404,6 +506,11 @@
                         </div>
 
                     </section>
+                </section>
+                <section class="subscription">
+                    <div>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalSubscription">¡SUSCRIBETE Y RECIBE LAS ÚLTIMAS NOVEDADES!</a>
+                    </div>
                 </section>
             </section>
         </main>
@@ -440,6 +547,65 @@
             </section>
 
         </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalSubscription" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">SUSCRIPCIÓN</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-modal">
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">Email</span>
+                                    <input type="text" class="form-control" 
+                                    placeholder="example@coderfit.com"
+                                    aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="alert alert-warning" role="alert">
+                        Recibiras un correo de confirmación para acceder a los beneficios de tu suscripción
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Cancelar
+                    </button>
+                    <button type="button" class="btn btn-modal-subscription">Suscribirme</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Modal -->
+
+    <!-- Modal cards -->
+    <div class="modal fade" id="modalCards" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Articulo Agregado</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h4>Se ha agrado este producto a su carrito 🛒</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+                    <button type="button" class="btn btn-modal-subscription"> <a href="./carrito.html">Ir al carrito</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Modal cards -->
+
+
 
 
     <!-- JavaScript Bundle with Popper -->

@@ -1,0 +1,34 @@
+/* MODAL suscripción*/
+
+.modal-title {
+    font-weight: bold;
+}
+
+.btn-modal-subscription {
+    background-color: #865bce;
+    color: #fff;
+    font-size: 15px;
+    &:hover {
+        background-color: #6c35cc;
+        color: #fff;
+    }
+}
+
+.btn-secondary {
+    font-size: 15px;
+}
+
+.form-modal {
+    span {
+        font-size: 15px;
+    }
+    input {
+        font-size: 15px;
+    }
+}
+
+/* MODAL CARDS*/
+
+.btn-modal-subscription a {
+    color: #fff;
+}

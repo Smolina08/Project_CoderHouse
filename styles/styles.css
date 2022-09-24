@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .button-contact button {
   margin-top: 3rem;
   margin-bottom: 0;
@@ -60,7 +61,7 @@ header {
   position: fixed;
   height: auto;
   top: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 .header-container {
@@ -287,12 +288,38 @@ header {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+#cards_index .card:hover {
+  transform: translateY(-15px);
+  transition: all 0.5s;
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
 #cards_index .badges-index {
   text-align: start;
 }
 #cards_index h3 {
   font-weight: bold;
 }
+.subscription {
+  background: #F5F5DC;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+  margin-top: 30px;
+}
+.subscription a {
+  color: #fff;
+  padding: 1.5rem;
+  background-color: #865bce;
+  border-radius: 1rem;
+  font-weight: 600;
+}
+.subscription a:hover {
+  background-color: #6c35cc;
+  font-size: 18px;
+  transition: all 1s;
+}
+
 .encabezado-products {
   display: flex;
   flex-direction: none;
@@ -559,6 +586,37 @@ footer {
   margin-right: 5px;
 }
 
+/* MODAL suscripción*/
+.modal-title {
+  font-weight: bold;
+}
+
+.btn-modal-subscription {
+  background-color: #865bce;
+  color: #fff;
+  font-size: 15px;
+}
+.btn-modal-subscription:hover {
+  background-color: #6c35cc;
+  color: #fff;
+}
+
+.btn-secondary {
+  font-size: 15px;
+}
+
+.form-modal span {
+  font-size: 15px;
+}
+.form-modal input {
+  font-size: 15px;
+}
+
+/* MODAL CARDS*/
+.btn-modal-subscription a {
+  color: #fff;
+}
+
 @media screen and (max-width: 768px) {
   /* HEADER */
   header {
@@ -779,6 +837,50 @@ footer {
   .container-new .two,
 .container-new .three {
     display: none;
+  }
+  .subscription {
+    background: #F5F5DC;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 10px;
+  }
+  .subscription a {
+    color: #fff;
+    padding: 1rem;
+    background-color: #865bce;
+    border-radius: 1rem;
+    font-size: 12px;
+    font-weight: 600;
+    width: 100%;
+  }
+  .subscription a:hover {
+    background-color: #6c35cc;
+    font-size: 12px;
+    transition: all 1s;
+  }
+  /* MODAL */
+  .modal-title {
+    font-weight: bold;
+  }
+  .btn-modal-subscription {
+    background-color: #865bce;
+    color: #fff;
+    font-size: 12px;
+  }
+  .btn-secondary {
+    font-size: 12px;
+  }
+  .form-modal span {
+    font-size: 12px;
+  }
+  .form-modal input {
+    font-size: 12px;
+  }
+  .modal-body .alert-warning {
+    font-size: 12px;
   }
   /* CARRITO DE COMPRAS */
   .items-shopping {

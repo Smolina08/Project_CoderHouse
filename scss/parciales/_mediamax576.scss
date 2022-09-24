@@ -24,6 +24,63 @@
         }
     }
 
+    .subscription {
+        background: #F5F5DC;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        margin-top: 10px;
+
+        a {
+            color: #fff;
+            padding: 1rem;
+            background-color: #865bce;
+            border-radius: 1rem;
+            font-size: 12px;
+            font-weight: 600;
+            width: 100%;
+
+            &:hover {
+                background-color: #6c35cc;
+                font-size: 12px;
+                transition: all 1s;
+            }
+        }
+    }
+
+    /* MODAL */
+
+    .modal-title {
+        font-weight: bold;
+    }
+
+    .btn-modal-subscription {
+        background-color: #865bce;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .btn-secondary {
+        font-size: 12px;
+    }
+
+    .form-modal {
+        span {
+            font-size: 12px;
+        }
+        input {
+            font-size: 12px;
+        }
+    }
+
+    .modal-body {
+        .alert-warning {
+            font-size: 12px;
+        }
+    }
+
     /* CARRITO DE COMPRAS */
 
     .items-shopping {
@@ -75,6 +132,7 @@
     .checkbox-form {
         @include display (none, center, center);
         width: 100%;
+
         input {
             margin-right: 5px;
         }
