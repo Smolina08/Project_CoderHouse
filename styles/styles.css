@@ -305,7 +305,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 2.5rem;
-  margin-top: 30px;
+  margin-top: 45px;
 }
 .subscription a {
   color: #fff;
@@ -485,6 +485,20 @@ header {
   border: 0.3rem solid #865bce;
   color: #000;
   transition: all 0.5s;
+}
+
+.ubication {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.ubication iframe {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .main-form_account {
@@ -871,7 +885,7 @@ footer {
     align-items: center;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    margin-top: 10px;
+    margin-top: 2.5rem;
   }
   .subscription a {
     color: #fff;
@@ -918,7 +932,7 @@ footer {
   }
   /* FORMULARIO */
   .main-form {
-    margin: 14rem auto 5rem auto;
+    margin: 14rem auto 3rem auto;
     border-radius: 1rem;
     width: 85%;
     font-size: 12px;
