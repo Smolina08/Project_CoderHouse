@@ -442,6 +442,24 @@ header {
   border-top: 0.5rem solid #000;
 }
 
+/* Modal pago */
+
+.modal-body select {
+  border-radius: 0.5rem;
+  border: none;
+  border-bottom: 0.2rem solid #865bce;
+  padding: 0.3rem;
+  background-color: #F5F5DC;
+  margin-top: 1rem;
+}
+
+.form-pay {
+  background-color: #865bce;
+  color: #fff;
+}
+
+/* Modal pago */
+
 .main-form {
   background-color: #F5F5DC;
   margin: 25rem 15rem 5rem 15rem;
@@ -486,6 +504,22 @@ header {
   color: #000;
   transition: all 0.5s;
 }
+
+/* Modal Contact */
+.modal-footer a {
+  color: #fff;
+}
+/* Modal Contact */
+
+/* Modal Account */
+.account-modal {
+  text-align: center;
+}
+
+.modal-body img {
+  width: 150px;
+}
+/* Modal Account */
 
 .ubication {
   position: relative;
@@ -930,6 +964,15 @@ footer {
   .items-shopping .cards-horizontal {
     width: 100%;
   }
+
+  /* Modal pago */
+
+.modal-body option {
+  font-size: 10px;
+}
+
+/* Modal pago */
+
   /* FORMULARIO */
   .main-form {
     margin: 14rem auto 3rem auto;

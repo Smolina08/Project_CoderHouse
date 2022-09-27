@@ -92,7 +92,7 @@
                                 
                 <div class="form-row button-contact">
                     <div class="col">
-                        <button type="button" class=" mb-4">
+                        <button type="button" class=" mb-4" data-bs-toggle="modal" data-bs-target="#modalAccount">
                             Ingresar
                         </button>
                     </div>
@@ -198,6 +198,25 @@
         </div>
     </div>
     <!-- /Modal -->
+
+    <!-- Modal Cuenta -->
+    <div class="modal fade" id="modalAccount" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Iniciando Sesión</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body account-modal">
+                    <img src="../images/Load_Icon.gif" alt="Gif cargando">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-modal-subscription"> <a href="./cuenta.html">Cerrar</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Modal Cuenta -->
 
 
     <!-- JavaScript Bundle with Popper -->
