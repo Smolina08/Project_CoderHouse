@@ -443,7 +443,6 @@ header {
 }
 
 /* Modal pago */
-
 .modal-body select {
   border-radius: 0.5rem;
   border: none;
@@ -452,14 +451,12 @@ header {
   background-color: #F5F5DC;
   margin-top: 1rem;
 }
-
-.form-pay {
+.modal-body .form-pay {
   background-color: #865bce;
   color: #fff;
 }
 
 /* Modal pago */
-
 .main-form {
   background-color: #F5F5DC;
   margin: 25rem 15rem 5rem 15rem;
@@ -505,22 +502,6 @@ header {
   transition: all 0.5s;
 }
 
-/* Modal Contact */
-.modal-footer a {
-  color: #fff;
-}
-/* Modal Contact */
-
-/* Modal Account */
-.account-modal {
-  text-align: center;
-}
-
-.modal-body img {
-  width: 150px;
-}
-/* Modal Account */
-
 .ubication {
   position: relative;
   overflow: hidden;
@@ -535,6 +516,12 @@ header {
   height: 100%;
 }
 
+/* Modal Contact */
+.modal-footer a {
+  color: #fff;
+}
+
+/* Modal Contact */
 .main-form_account {
   background-color: #F5F5DC;
   margin: 25rem auto 5rem auto;
@@ -580,6 +567,16 @@ header {
   color: #000;
 }
 
+/* Modal Account */
+.account-modal {
+  text-align: center;
+}
+
+.modal-body img {
+  width: 150px;
+}
+
+/* Modal Account */
 .main-form .item-form select {
   font-size: 15px;
   padding: 1rem;
@@ -964,15 +961,11 @@ footer {
   .items-shopping .cards-horizontal {
     width: 100%;
   }
-
   /* Modal pago */
-
-.modal-body option {
-  font-size: 10px;
-}
-
-/* Modal pago */
-
+  .modal-body option {
+    font-size: 10px;
+  }
+  /* Modal pago */
   /* FORMULARIO */
   .main-form {
     margin: 14rem auto 3rem auto;

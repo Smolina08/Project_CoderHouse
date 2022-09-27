@@ -6,27 +6,33 @@
     text-align: center;
     margin-top: 30rem;
     margin-bottom: 5rem;
+
     .text-cards {
-        background-image: linear-gradient( to left,#42275a, #734b6d);
+        background-image: linear-gradient(to left, #42275a, #734b6d);
         color: #fff;
         display: flex;
         justify-content: space-around;
     }
-    img{
+
+    img {
         margin: 5% 5%;
         width: 85%;
         height: 85%;
     }
+
     .cards-horizontal {
         width: 65%;
     }
+
     .body-shopping {
         @include display (column, center, center);
     }
+
     input {
         width: 50px;
         text-align: center;
     }
+
     .input-total {
         text-align: center;
         width: 300px;
@@ -34,6 +40,7 @@
         border-radius: 1rem;
         margin-top: 5px;
     }
+
     button {
         margin-top: 6rem;
         margin-bottom: 0;
@@ -42,6 +49,7 @@
         font-weight: 900;
         font-size: 13px;
     }
+
     .h3-total {
         font-weight: bold;
         color: map-get($colores, colorPrincipal);
@@ -49,12 +57,33 @@
         border-bottom: 0.3rem solid map-get($colores, colorPrincipal);
         padding-bottom: 1rem;
     }
+
     .button-total {
         margin: 1rem;
         font-weight: bold;
         font-size: 15px;
     }
+
     .item-shopping_others {
         border-top: 0.5rem solid #000;
-     }
-} 
+    }
+}
+
+/* Modal pago */
+
+.modal-body {
+    select {
+        border-radius: 0.5rem;
+        border: none;
+        border-bottom: 0.2rem solid #865bce;
+        padding: 0.3rem;
+        background-color: #F5F5DC;
+        margin-top: 1rem;
+    }
+    .form-pay {
+        background-color: #865bce;
+        color: #fff;
+    }
+}
+
+/* Modal pago */
